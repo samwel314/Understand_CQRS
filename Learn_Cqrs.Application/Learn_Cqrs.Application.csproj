@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Learn_Cqrs.Domain\Learn_Cqrs.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

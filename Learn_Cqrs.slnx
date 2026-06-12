@@ -1,3 +1,6 @@
 <Solution>
   <Project Path="Learn_Cqrs.Api/Learn_Cqrs.Api.csproj" />
+  <Project Path="Learn_Cqrs.Application/Learn_Cqrs.Application.csproj" />
+  <Project Path="Learn_Cqrs.Domain/Learn_Cqrs.Domain.csproj" />
+  <Project Path="Learn_Cqrs.Infrastructure/Learn_Cqrs.Infrastructure.csproj" />
 </Solution>

@@ -6,4 +6,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Learn_Cqrs.Application\Learn_Cqrs.Application.csproj" />
+    <ProjectReference Include="..\Learn_Cqrs.Infrastructure\Learn_Cqrs.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
