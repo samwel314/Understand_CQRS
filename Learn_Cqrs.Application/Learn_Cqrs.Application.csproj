@@ -16,12 +16,4 @@
     <ProjectReference Include="..\Learn_Cqrs.Domain\Learn_Cqrs.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Todos\Commands\CreateTodo\" />
-    <Folder Include="Todos\Commands\DeleteTodo\" />
-    <Folder Include="Todos\Commands\UpdateTodo\" />
-    <Folder Include="Todos\Queries\GetTodos\" />
-    <Folder Include="Todos\Queries\GetTodoById\" />
-  </ItemGroup>
-
 </Project>
